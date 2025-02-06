@@ -2,7 +2,7 @@
 int main() {
     char name,hobby;
     int b;
-    scanf("%s %d %s",&name,&hobby,&c);
+    scanf("%s",name);
     printf("Name: %s",name);
     printf("Age: %d",age);
     printf("Hobby: ",hobby);

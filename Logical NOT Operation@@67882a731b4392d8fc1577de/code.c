@@ -2,11 +2,11 @@
 int main() {
     int a,b;
     scanf("%d%d",&a,&b);
-    if (a!>0){
-        print("False");
+    if (a>0){
+        print("Truee");
     }
     else{
-        print("True");
+        print("False");
     }
     return 0;
 }

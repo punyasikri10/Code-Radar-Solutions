@@ -3,7 +3,7 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if (a==b^2){
+    if (a==b**2){
         printf("Yes");
     }
     else{

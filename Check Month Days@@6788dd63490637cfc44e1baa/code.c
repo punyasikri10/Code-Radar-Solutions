@@ -17,8 +17,12 @@ int main(){
         break;
         case 5:
         printf("31");
+        case 12:
+        printf("31");
+        break;
+
         break;
         default:
-        printf("Invalid input");
+        printf("Invalid month");
     }
 }

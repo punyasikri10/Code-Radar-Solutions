@@ -1,8 +1,8 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    char a[100];
-    scanf("%s",&a);
+    char a;
+    scanf("%c",&a);
     if (a=="R"){
         printf("Stop");
     }

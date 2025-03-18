@@ -10,5 +10,6 @@ int main(){
     for (int num = 1; num <= i; num++) {
             printf("%d ", num);
     }
-}
+
+}printf("\n");
 }

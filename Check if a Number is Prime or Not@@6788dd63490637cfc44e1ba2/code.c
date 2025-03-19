@@ -13,4 +13,5 @@ int main(){
             return 0;
         }
     }printf("Prime\n");
+    return 0;
 }

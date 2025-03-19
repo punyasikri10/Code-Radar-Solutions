@@ -3,7 +3,7 @@
 int main(){
     int num,i;
     scanf("&d",&num);
-    if (num>2){
+    if (num<2){
         printf("Not Prime\n");
         return 0;
     }
@@ -12,6 +12,7 @@ int main(){
             printf("Not Prime\n");
             return 0;
         }
-    }printf("Prime\n");
+    }
+    printf("Prime\n");
     return 0;
 }

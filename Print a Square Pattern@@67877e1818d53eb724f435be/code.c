@@ -13,7 +13,7 @@
 
 int main() {
     int n;
-    printf("Enter the size of the square pattern: ");
+    
     scanf("%d", &n);
     
     for (int i = 1; i <= n; i++) { // Loop for each row

@@ -1,5 +1,5 @@
 // Your code here...
-void bubblesort(arr[],int n){
+void bubblesort(int arr[],int n){
     int i,j,temp;
     int swapped;
 

@@ -1,5 +1,5 @@
 // Your code h
-int bubblesort(int arr[],int n){
+int bubbleSort(int arr[],int n){
     int i,j,temp;
     int swapped;
 
@@ -18,7 +18,7 @@ int bubblesort(int arr[],int n){
         }
     }
 }
-int printarray(int arr[], int size){
+int printArray(int arr[], int size){
     for (int i=0; i<size; i++){
         printf("%d",arr[i]);
     }

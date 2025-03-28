@@ -1,5 +1,5 @@
 // Your code here...
-int bubbleSort(int arr[],int n){
+int insertionSort(int arr[],int n){
     int i,j,temp;
     int swapped;
 

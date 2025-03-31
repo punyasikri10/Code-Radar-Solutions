@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 
 // Function to reverse a portion of the array
@@ -12,18 +11,18 @@ void reverse(int arr[], int start, int end) {
     }
 }
 
-// Function to rotate the array from k-th position
-void rotateArray(int arr[], int n, int k) {
+// Function to rotate the array to the right by k positions
+void rotateRight(int arr[], int n, int k) {
     k = k % n; // Handle cases where k > n
     
-    // Step 1: Reverse the first part (0 to k-1)
+    // Step 1: Reverse the entire array
+    reverse(arr, 0, n - 1);
+    
+    // Step 2: Reverse the first k elements
     reverse(arr, 0, k - 1);
     
-    // Step 2: Reverse the second part (k to n-1)
+    // Step 3: Reverse the remaining elements
     reverse(arr, k, n - 1);
-    
-    // Step 3: Reverse the entire array (0 to n-1)
-    reverse(arr, 0, n - 1);
 }
 
 int main() {
@@ -45,8 +44,8 @@ int main() {
     // printf("Enter the rotation position (k): ");
     scanf("%d", &k);
     
-    // Rotate the array
-    rotateArray(arr, n, k);
+    // Rotate the array to the right
+    rotateRight(arr, n, k);
     
     // Printing the rotated array
     // printf("Rotated array: ");
